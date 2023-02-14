@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Npgsql" Version="7.0.1" />
     <PackageReference Include="NSwag.AspNetCore" Version="13.18.2" />
   </ItemGroup>
 
