@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Npgsql;
-using Newtonsoft.Json.Serialization;
 using System.Data;
 using Microsoft.Extensions.Configuration;
 using System.ComponentModel;
