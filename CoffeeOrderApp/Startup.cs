@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using NSwag;
+using Newtonsoft.Json.Serialization;
 
 namespace CoffeeOrderApp
 {
@@ -28,6 +29,7 @@ namespace CoffeeOrderApp
         {
             services.AddControllers();
             services.AddSwaggerDocument();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
